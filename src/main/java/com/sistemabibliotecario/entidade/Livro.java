@@ -5,6 +5,7 @@
  */
 package com.sistemabibliotecario.entidade;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.List;
 import javax.persistence.Column;
@@ -18,7 +19,7 @@ import javax.persistence.ManyToMany;
  * @author diego
  */
 @Entity
-public class Livro {
+public class Livro implements Serializable{
 
     @Id
     @GeneratedValue
