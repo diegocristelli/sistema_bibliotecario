@@ -14,10 +14,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-/**
- *
- * @author diego
- */
 @Entity
 public class Livro implements Serializable{
 
